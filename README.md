@@ -1,13 +1,13 @@
 # sns-login
-##### - Template Engines
+#### # Template Engines
 - Thymeleaf
 
-##### - sql
+#### # sql
 - Mysql
 - JPA
 
-##### - Framework
+#### # Framework
 - spring
 
-##### - Build
+#### # Build
 - gradle
