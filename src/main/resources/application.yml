@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  thymeleaf: # template 설정
+    cache: false # resource 제기동 없이 반영을 위함
+    prefix: classpath:templates/
+    suffix: .html
+  devtools:
+    livereload:
+      enabled: true # resource 제기동 없이 반영을 위함
+  freemarker:
+    cache: false # resource 제기동 없이 반영을 위함
+  datasource: # DB 설정
+    url: jdbc:mysql://localhost:3306/user?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: root@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: none
